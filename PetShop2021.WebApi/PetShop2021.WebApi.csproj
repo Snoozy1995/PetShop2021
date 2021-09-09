@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PetShop2021.Domain\PetShop2021.Domain.csproj" />
+      <ProjectReference Include="..\PetShop2021.SQL\PetShop2021.SQL.csproj" />
+      <ProjectReference Include="..\PetShop2021.Core\PetShop2021.Core.csproj" />
+    </ItemGroup>
+
+</Project>
